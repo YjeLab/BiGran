@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# 产物与代码分离：一切 run 输出不进版本库
+experiments/
+runs/
+logs/
+*.pt
+*.ckpt
+data_cache/
+train_local_*.err
+train_local_*.out
